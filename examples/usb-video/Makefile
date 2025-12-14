@@ -13,9 +13,10 @@ export TOPDIR	:=	$(CURDIR)
 NITRO_FILES	:=
 
 # These set the information text in the nds file
-#GAME_TITLE     := My Wonderful Homebrew
-#GAME_SUBTITLE1 := built with devkitARM
-#GAME_SUBTITLE2 := http://devitpro.org
+GAME_TITLE     := USB Video Example
+GAME_SUBTITLE1 := DSpico
+GAME_SUBTITLE2 := LNH team
+GAME_ICON	   := icon.bmp
 
 include $(DEVKITARM)/ds_rules
 

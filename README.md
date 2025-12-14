@@ -20,3 +20,4 @@ The platform code and examples are licensed under the Zlib license. For details,
 ## Credits
 - [tinyusb](https://github.com/hathach/tinyusb) for the USB library. The examples are also largely based on the examples that come with tinyusb.
 - [libcamera](https://github.com/FTC55/libcamera) by [FTC55](https://github.com/FTC55) for camera initialization code
+- Banner icons by [nitehack](https://www.github.com/nitehack)
