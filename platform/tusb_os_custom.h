@@ -159,3 +159,8 @@ static inline bool osal_queue_empty(osal_queue_t qhdl)
     qhdl->writePtr = 0;
     return true;
 }
+
+static inline void osal_task_delay(uint32_t msec)
+{
+    // Not implemented
+}
