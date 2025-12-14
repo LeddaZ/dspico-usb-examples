@@ -2,8 +2,9 @@
 This repository contains examples of using the DSpico USB port from a DS application.
 
 The `examples` folder contains the following examples:
-- usb-speaker - Makes the DS/DSi/3DS work as a USB speaker for your PC
 - mass-storage - Allows access to the DSpico micro SD card over USB
+- usb-speaker - Makes the DS/DSi/3DS work as a USB speaker for your PC
+- usb-video - Allows to use the camera of your DSi or 3DS on your PC via USB
 
 The `platform` folder contains the tiny usb platform code for the DSpico.
 
@@ -15,3 +16,7 @@ The examples require a pre-calico devkitpro/libnds environment to build. With su
 
 ## License
 The platform code and examples are licensed under the Zlib license. For details, see `LICENSE.txt`.
+
+## Credits
+- [tinyusb](https://github.com/hathach/tinyusb) for the USB library. The examples are also largely based on the examples that come with tinyusb.
+- [libcamera](https://github.com/FTC55/libcamera) by [FTC55](https://github.com/FTC55) for camera initialization code

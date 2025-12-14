@@ -1,4 +1,5 @@
 #pragma once
+#include <cstddef>
 #include "tusb.h"
 
 template<std::size_t N>
