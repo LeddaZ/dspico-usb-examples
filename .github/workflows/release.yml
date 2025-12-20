@@ -10,6 +10,7 @@ jobs:
       matrix:
         example: [
             "mass-storage",
+            "usb-microphone",
             "usb-speaker",
             "usb-video"
         ]

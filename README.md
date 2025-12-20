@@ -3,6 +3,8 @@ This repository contains examples of using the DSpico USB port from a DS applica
 
 The `examples` folder contains the following examples:
 - mass-storage - Allows access to the DSpico micro SD card over USB
+- usb-microphone - Makes the DSi/3DS work as a USB microphone for your PC
+    - Note: does not work with regular DS devices currently
 - usb-speaker - Makes the DS/DSi/3DS work as a USB speaker for your PC
 - usb-video - Allows to use the camera of your DSi or 3DS on your PC via USB
 
