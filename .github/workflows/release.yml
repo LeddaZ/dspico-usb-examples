@@ -12,7 +12,8 @@ jobs:
             "mass-storage",
             "usb-microphone",
             "usb-speaker",
-            "usb-video"
+            "usb-video",
+            "usb-controller"
         ]
     runs-on: ubuntu-latest
     container: devkitpro/devkitarm:20241104
