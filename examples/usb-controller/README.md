@@ -1,5 +1,10 @@
 # USB Controller
 
+> [!IMPORTANT]
+> This works, but it's vibecoded. I'm not very knowledgeable on C++ but I still wanted to see
+> if this is possible, since I have a use for it. If someone competent wants to pick
+> this up or redo it from scratch, I'd be more than happy.
+
 Turns a DS, DSi or 3DS with a DSpico cartridge into a plain USB HID gamepad,
 with the touch screen usable as a right stick or as a mouse. No driver is
 needed: the console enumerates as a standard gamepad plus a standard mouse, so
